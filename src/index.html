@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CMBD Assingment 2</title>
+  <link rel="shortcut icon" href="./images/SM Mahidur .png" type="image/x-icon">
+  <!-- css -->
+  <link rel="stylesheet" href="./style.css">
+  <!-- tailwind -->
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <!-- navbar start -->
+      <header class="header body-font">
+        <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+          <a class="flex title-font font-medium items-center mb-4 md:mb-0">
+            <a href="https://smartslider3.com" class="home" aria-label="Home">
+              <svg xmlns="http://www.w3.org/2000/svg" class="text-red-800" viewBox="0 0 168 30" width="168" height="30">
+              <path fill="#FFF" fill-rule="nonzero" d="M63.8 15v15h-3.3v-2.2C59.8 29 58.2 30 56 30 52 30 49 26.7 49 22.3c0-4.2 2.8-7.3 7-7.3 2.6 0 4 1.6 4.4 2.5V15h3.4zm77-7v22h-3.3v-2.2c-.7 1.2-2.3 2.2-4.4 2.2-4.2 0-7.1-3.3-7.1-7.7 0-4.2 2.8-7.3 7-7.3 2.6 0 4 .9 4.4 1.8V8h3.4zm9 7c4.4 0 7 2.9 7 7.3l-.1 1.1h-10.3c0 2.2 1.7 3.7 3.8 3.7 2 0 3.1-1 3.6-2.5l2.8 1c-.7 2.4-3 4.4-6.4 4.4-3.8 0-7.2-2.8-7.2-7.6 0-4.4 3.3-7.4 6.9-7.4zm-79.2 0v2.5C71.3 15.9 73 15 75 15h1v3.7l-1.2-.1c-2.8 0-4.1 1.6-4.1 4.3V30H67V15h3.6zm52.9 0v15H120V15h3.5zm-38.8-4v4.4H88v3h-3.3v6.7c0 1.3.6 1.9 2 1.9l1.3-.2v2.9c-.2 0-1 .3-2.3.3-3 0-4.8-1.6-4.8-4.3v-7.2H78v-3h.8c1.7 0 2.5-1 2.5-2.3V11h3.4zm31.8-3v22H113V8h3.5zm46 7v2.6c.8-1.7 2.5-2.6 4.5-2.6h1v3.7l-1.2-.1c-2.8 0-4.1 1.6-4.1 4.3V30H159V15h3.6zM15.2 8c4.5 0 6.6 2.3 7.4 4.4l-3.3 1.2c-.5-1.2-1.7-2.4-4.1-2.4-2.2 0-3.8 1.4-3.8 3 0 1.3.9 2.3 2.6 2.7l3.2.6c3.8.8 5.9 3.1 5.9 6.1 0 3.3-2.8 6.4-7.8 6.4-4.8 0-7.4-2.6-8.2-5.2l1.6-.6.4-.1 1.4-.5c.6 1.7 2.2 3.2 4.8 3.2 2.7 0 4-1.3 4-3 0-1.3-1-2.4-3-2.8l-3-.6c-3.4-.7-5.6-2.8-5.6-6C7.6 11 11 8 15.1 8zm13.2 7v2.5a5.2 5.2 0 014.4-2.5c1.9 0 3.6.8 4.4 2.5 1.1-2 2.8-2.5 4.7-2.5 2.7 0 5.2 1.7 5.2 5.5V30h-3.4v-8.9c0-1.7-.8-3-2.8-3-1.8 0-3 1.5-3 3.2V30h-3.5v-8.9c0-1.7-.8-3-2.8-3-1.9 0-3 1.4-3 3.2V30H25V15h3.3zm74.8-7c4.5 0 6.6 2.3 7.4 4.4l-3.3 1.2c-.5-1.2-1.7-2.4-4.1-2.4-2.2 0-3.8 1.4-3.8 3 0 1.3.9 2.3 2.6 2.7l3.2.6c3.8.8 5.9 3.1 5.9 6.1 0 3.3-2.8 6.4-7.8 6.4-4.8 0-7.4-2.6-8.2-5.2l1.6-.6.4-.1 1.4-.5c.6 1.7 2.2 3.2 4.8 3.2 2.7 0 4-1.3 4-3 0-1.3-1-2.4-3-2.8l-3-.6c-3.4-.7-5.6-2.8-5.6-6C95.6 11 99 8 103.1 8zM56.4 18c-2.5 0-4.4 1.7-4.4 4.5 0 2.7 1.7 4.5 4.3 4.5 2.5 0 4.3-1.8 4.3-4.6 0-2.7-1.7-4.4-4.2-4.4zm77 0c-2.5 0-4.4 1.7-4.4 4.5 0 2.7 1.7 4.5 4.3 4.5 2.5 0 4.3-1.8 4.3-4.6 0-2.7-1.7-4.4-4.2-4.4zM2 11.7l2 .2V18c.7 1.3 1 2.3 1 3 0 1-1 2-2 2s-2-1-2-2c0-.7.3-1.7 1-3v-6.3zm148 6.1a3.5 3.5 0 00-3.5 3.3h7c-.1-1.7-1.2-3.3-3.6-3.3zM121.6 8c1.3 0 2.3 1 2.3 2.3 0 1.2-1 2.2-2.3 2.2-1.2 0-2.2-1-2.2-2.2 0-1.3 1-2.3 2.2-2.3zM13.7.2L20 2l.7.2 6.9 2c.6.1 1 .9.4 1.2L22 8.2c-3.6-3-11.4-3.4-15 2L.5 9.6c-.7-.1-.7-.7 0-1.2l5-3.5.6-.5 5.7-4c.5-.3 1-.5 2-.1z"></path>
+              </svg>
+              </a>
+          </a>
+          <nav class="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center">
+            <a class="mr-5 cursor-pointer">Help</a>
+            <a class="mr-5 cursor-pointer">Features</a>
+            <a class="mr-5 cursor-pointer">Blog</a>
+            <a class="mr-5 cursor-pointer">Try</a>
+            <a class="mr-5 cursor-pointer">Account</a>
+          </nav>
+          <button class="inline-flex items-center  border-0 py-1 px-3 focus:outline-none rounded-full text-base mt-4 md:mt-0 mr-5 cmnBtn">Templates
+          </button>
+          <button class="inline-flex items-center  border-0 py-1 px-3 focus:outline-none rounded-full text-base mt-4 md:mt-0 cmnBtn">Pricing
+          </button>
+        </div>
+      </header>
+    <!-- navbar end -->
+    <!-- main -->
+    <main>
+
+      <!-- <div id="default-carousel" class="relative w-full bg-green-300" data-carousel="slide">
+
+        <div class="relative h-56 overflow-hidden rounded-lg md:h-96">
+
+        <div class="slider flex gap-4">
+            <div class="sliderBox rounded px-5 mx-5 py-5">
+              <img class="items-center mx-auto lute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" src="../images/images/company-logo2.webp" alt="logo">
+              <h6 class="description">Smart Slider 3 is more than powerful. It is amazing.Thanks to developer for putting so much effort to create this well-thought plugin.</h6>
+              <img class="items-center mx-auto my-5 rounded" src="../images/images/avatar1.webp" alt="image">
+              <h4 class="name">DIANA MILLER</h4>
+              <p class="designation">Marketing Manager</p>
+            </div>
+            <div class="sliderBox rounded px-5 mx-5 py-5">
+              <img class="items-center mx-auto" src="../images/images/company-logo2.webp" alt="logo">
+              <h6 class="description">Smart Slider 3 is more than powerful. It is amazing.Thanks to developer for putting so much effort to create this well-thought plugin.</h6>
+              <img class="items-center mx-auto my-5 rounded" src="../images/images/avatar1.webp" alt="image">
+              <h4 class="name">DIANA MILLER</h4>
+              <p class="designation">Marketing Manager</p>
+            </div>
+            <div class="sliderBox rounded px-5 mx-5 py-5">
+              <img class="items-center mx-auto" src="../images/images/company-logo2.webp" alt="logo">
+              <h6 class="description">Smart Slider 3 is more than powerful. It is amazing.Thanks to developer for putting so much effort to create this well-thought plugin.</h6>
+              <img class="items-center mx-auto my-5 rounded" src="../images/images/avatar1.webp" alt="image">
+              <h4 class="name">DIANA MILLER</h4>
+              <p class="designation">Marketing Manager</p>
+            </div>
+
+        </div>
+
+       
+      </div>
+      </div> -->
+
+
+
+        <!-- slider text start -->
+        
+<div id="default-carousel" class="relative w-full bg-green-50" data-carousel="slide">
+  <!-- Carousel wrapper -->
+  <div class="relative h-[300px]  md:h-96">
+
+    <div class="slider flex gap-4">
+      <div class="sliderBox rounded px-5 mx-5 py-5">
+        <img class="items-center mx-auto" src="../images/images/company-logo2.webp" alt="logo">
+        <h6 class="description">Smart Slider 3 is more than powerful. It is amazing.Thanks to developer for putting so much effort to create this well-thought plugin.</h6>
+        <img class="items-center mx-auto my-5 rounded" src="../images/images/avatar1.webp" alt="image">
+        <h4 class="name text-center">DIANA MILLER</h4>
+        <p class="designation text-center">Marketing Manager</p>
+      </div>
+      <div class="sliderBox rounded px-5 mx-5 py-5">
+        <img class="items-center mx-auto" src="../images/images/company-logo2.webp" alt="logo">
+        <h6 class="description">Smart Slider 3 is more than powerful. It is amazing.Thanks to developer for putting so much effort to create this well-thought plugin.</h6>
+        <img class="items-center mx-auto my-5 rounded" src="../images/images/avatar2.webp" alt="image">
+        <h4 class="name text-center">DIANA MILLER</h4>
+        <p class="designation text-center">Marketing Manager</p>
+      </div>
+      <div class="sliderBox rounded px-5 mx-5 py-5">
+        <img class="items-center mx-auto" src="../images/images/company-logo3.webp" alt="logo">
+        <h6 class="description">Smart Slider 3 is more than powerful. It is amazing.Thanks to developer for putting so much effort to create this well-thought plugin.</h6>
+        <img class="items-center mx-auto my-5 rounded" src="../images/images/avatar2.webp" alt="image">
+        <h4 class="name text-center">DIANA MILLER</h4>
+        <p class="designation text-center">Marketing Manager</p>
+      </div>
+
+  </div>
+
+  </div>
+  <!-- Slider indicators -->
+  <div class="absolute z-30 flex space-x-3 -translate-x-1/2  left-1/2 ">
+      <button type="button" class="w-3 h-3 rounded-full bg-red-600 mt-[230px]" aria-current="true" aria-label="Slide 1" data-carousel-slide-to="0"></button>
+      <button type="button" class="w-3 h-3 rounded-full bg-red-600 mt-[230px]" aria-current="false" aria-label="Slide 2" data-carousel-slide-to="1"></button>
+      <button type="button" class="w-3 h-3 rounded-full bg-red-600 mt-[230px]" aria-current="false" aria-label="Slide 3" data-carousel-slide-to="2"></button>
+      <button type="button" class="w-3 h-3 rounded-full bg-red-600 mt-[230px]" aria-current="false" aria-label="Slide 4" data-carousel-slide-to="3"></button>
+      <button type="button" class="w-3 h-3 rounded-full bg-red-600 mt-[230px]" aria-current="false" aria-label="Slide 5" data-carousel-slide-to="4"></button>
+  </div>
+  <!-- Slider controls -->
+  <button type="button" class="absolute top-0 left-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-prev>
+
+      <svg class="w-4 h-4 text-white dark:text-gray-800" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 1 1 5l4 4"/>
+    </svg>
+  </button>
+  <button type="button" class="absolute top-0 right-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-next>
+      <svg class="w-4 h-4 text-white dark:text-gray-800" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 9 4-4-4-4"/>
+    </svg>
+  </button>
+</div>
+
+        <!-- slider text end -->
+    </main>
+</body>
+</html>

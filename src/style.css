@@ -1,0 +1,44 @@
+
+
+:root{
+    --primary-color:#0C1D2C;
+    --navbTextColor:#FFFFFF;
+    --bgcolor:#E2F1F9;
+    --bgColor:#00A4E3;
+}
+.cmnBtn{
+    background: var(--navbTextColor);
+    color: var(--primary-color);
+    padding: 12px 35px;
+}
+/* header section */
+
+.header{
+    background: var(--primary-color);
+    color: var(--navbTextColor);
+    
+}
+
+/* slidebox */
+ .slider{
+    background: var(--bgColor);
+    padding: 80px;
+}
+.sliderBox{
+    max-width: 400px;
+    height: 500px;
+    text-align: centere;
+    background: var(--bgcolor);
+    text-align: center;
+    padding: 25px 10px;
+}
+.description{
+    font-size: 112.5%;
+    margin: 30px 20px;
+} 
+
+
+/* slider */
+svg.w-4.h-4.text-white.dark\:text-gray-800 {
+    margin-top: 285px;
+}
